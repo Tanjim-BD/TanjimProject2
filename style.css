@@ -1,0 +1,430 @@
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Dosis", sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+section {
+  padding: 75px 0px;
+}
+.global-button {
+  padding: 8px 3%;
+  background: #00fff0;
+  border: none;
+  border-radius: 5px;
+}
+.global-button:hover {
+  box-shadow: 1px 4px 4px #b0fffb;
+  transition: 0.5s ease-in-out;
+}
+.global-button a {
+  text-decoration: none;
+  color: #000;
+}
+/* Header is here */
+header {
+  width: 100%;
+  float: left;
+  background: #223047;
+  color: #fff;
+  padding: 20px 0px;
+}
+
+.button-part {
+  width: 33%;
+  float: left;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.logo-part {
+  width: 33%;
+  float: left;
+  margin: 10px 0px;
+}
+
+.menu-part {
+  width: 33%;
+  float: left;
+  text-align: center;
+  margin: 10px 0px;
+}
+nav {
+  margin: 14px auto;
+}
+nav ul {
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px;
+  text-decoration: none;
+}
+/* Hero Section */
+#hero {
+  width: 100%;
+  float: left;
+  background: #223047;
+  border-top: 1px solid #fff;
+}
+.hero-text {
+  width: 60%;
+  float: left;
+  padding: 300px 0px 50px;
+  color: #fff;
+}
+.hero-text button {
+  width: 200px;
+  padding: 10px;
+  margin-top: 24px;
+}
+.hero-text-btn {
+  color: #fff;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 13px;
+}
+.hero-img {
+  width: 40%;
+  float: left;
+}
+.hero-img img {
+  position: relative;
+  bottom: -150px;
+}
+
+/* Services Section */
+
+/* .services h1::after{
+    content: '';
+    display: block;
+    width: 8%;
+    border-top: 2px solid #000;
+    margin: 10px auto;
+} */
+
+#services {
+  width: 100%;
+  float: left;
+  background: #fff;
+}
+.services-text {
+  width: 100%;
+  float: left;
+  padding: 70px 0px 10px;
+  text-align: center;
+}
+.underline {
+  display: block;
+  width: 8%;
+  border-top: 2px solid #00fff1;
+  margin: 40px auto;
+}
+.services-part-one {
+  width: 25%;
+  float: left;
+  margin: 5px 0px;
+  text-align: center;
+}
+.services-part-two {
+  width: 25%;
+  float: left;
+  margin: 5px 0px;
+  text-align: center;
+}
+.services-part-three {
+  width: 25%;
+  float: left;
+  margin: 5px 0px;
+  text-align: center;
+}
+.services-part-four {
+  width: 25%;
+  float: left;
+  margin: 5px 0px;
+  text-align: center;
+}
+.paragraph {
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+/* Company Info Section */
+#companyinfo {
+  width: 100%;
+  float: left;
+}
+.cinfo-img {
+  width: 50%;
+  float: left;
+}
+.cinfo-text {
+  width: 50%;
+  float: left;
+  padding: 5%;
+  background: #f5f6fa;
+}
+.cinfo-boxtext {
+  margin: 40px 0px;
+  width: 85%;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: justify;
+}
+
+/* *** App Presentation *** */
+/* Top Section */
+#topsection {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+.toptext {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-top: 4%;
+}
+.top-img1 {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-left: 5%;
+}
+.top-para {
+  margin: 35px 85px 60px;
+  width: 85%;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* Middle Section */
+#middlesection {
+  width: 100%;
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.mid-left-img {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-left: 5%;
+}
+.mid-left-img img {
+  position: relative;
+  bottom: -75px;
+}
+.mid-right-img {
+  width: 50%;
+  float: left;
+  padding-left: 5%;
+}
+
+/* Bottom section */
+#bottomsection {
+  width: 100%;
+  float: left;
+  padding-top: 5px;
+  background: #f5f6fa;
+}
+.bottom-left-side {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-top: 100px;
+}
+.bottom-para {
+  margin: 35px 95px 79px;
+  width: 85%;
+  font-size: 13px;
+  line-height: 17px;
+}
+.bottom-right-side {
+  width: 50%;
+  float: left;
+  padding-left: 5%;
+}
+.bottom-img {
+  position: relative;
+  bottom: -75px;
+}
+
+.bottom-mid-img {
+  position: absolute;
+  margin: 0 0 0 75px;
+  width: 298px;
+  height: 389px;
+  z-index: 999;
+}
+
+/* Video Section */
+#video-section {
+  width: 100%;
+  float: left;
+}
+.video-img-part {
+  width: 100%;
+  float: left;
+}
+.video-img1 {
+  width: 1241px;
+  position: relative;
+  top: -134px;
+}
+.video-others-part {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.video-play-img {
+  padding-bottom: 18px;
+}
+.video-text1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 14px;
+}
+.video-para {
+  width: 100%;
+  float: left;
+}
+.video-paragraph {
+  width: 460px;
+  text-align: center;
+  margin-left: 32%;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 18px;
+  padding-bottom: 50px;
+}
+
+/* Download Section */
+#download-section {
+  width: 100%;
+  float: left;
+}
+.download-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  color: #233148;
+  font-size: 25px;
+}
+.download-para {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #233148;
+}
+.download-button-part {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 58px 0px;
+}
+.download-button {
+  padding: 17px 5%;
+  background: #00fff0;
+  border: none;
+}
+
+/* Quote Section */
+#quote-section {
+  width: 100%;
+  float: left;
+  background: #223047;
+}
+.quote-para {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #02f5e8;
+}
+.quote-paragraph {
+  width: 852px;
+  margin: 58px 148px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* App Add Section */
+#app-add-section {
+  width: 100%;
+  float: left;
+  background: #f5f6fa;
+  padding-bottom: 0px;
+}
+.phones {
+  width: 50%;
+  float: left;
+}
+.lphone {
+  position: absolute;
+  margin: 0 0 0 75px;
+  z-index: 999;
+  padding-left: 4%;
+}
+.rphone {
+  position: relative;
+  bottom: -75px;
+  padding-left: 47%;
+}
+.text {
+  width: 50%;
+  float: left;
+}
+/* .main-text{
+    margin: 114px 0px 30px;
+} */
+.text-para {
+  width: 74%;
+  font-size: 14px;
+  line-height: 22px;
+}
+.button-img {
+  width: 50%;
+  float: left;
+}
+.ps-button {
+  width: 17%;
+  margin: 20px 15px 10px 0px;
+}
+.is-button {
+  width: 17%;
+  margin: 20px 15px 10px 0px;
+}
+.phones-bottom-button {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 122px 0px 5px;
+}
+.pbottom-button {
+  padding: 17px 5%;
+  background: #00fff0;
+  border: none;
+}
+.pbottom-button img {
+  position: relative;
+  bottom: -15px;
+}
+.folder-text-img {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
